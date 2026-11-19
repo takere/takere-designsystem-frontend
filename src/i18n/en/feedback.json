@@ -1,0 +1,83 @@
+{
+  "eyebrow": "Components",
+  "title": "Feedback and status",
+  "intro": "How the interface responds to the user: in-page alerts, temporary toasts, task status and loading.",
+  "alerts": {
+    "title": "Alerts",
+    "description": "Persistent messages within the page.",
+    "items": {
+      "accent": {
+        "title": "New feature",
+        "body": "You can now export the care plan as a PDF."
+      },
+      "success": {
+        "title": "Plan published",
+        "body": "The patient is now receiving reminders in the app."
+      },
+      "warning": {
+        "title": "Overdue dose",
+        "body": "The 08:00 medication hasn't been logged yet."
+      },
+      "danger": {
+        "title": "Sync failed",
+        "body": "Check your connection and try again."
+      },
+      "default": {
+        "title": "Draft",
+        "body": "Changes haven't been published yet."
+      }
+    }
+  },
+  "toasts": {
+    "title": "Toasts",
+    "description": "Quick confirmations that disappear on their own. They appear at the bottom of the screen.",
+    "success": {
+      "title": "Saved",
+      "body": "Care plan updated.",
+      "button": "Success"
+    },
+    "warning": {
+      "title": "Warning",
+      "body": "There are unpublished changes.",
+      "button": "Warning"
+    },
+    "danger": {
+      "title": "Error",
+      "body": "Couldn't save. Please try again.",
+      "button": "Error"
+    },
+    "info": {
+      "title": "Info",
+      "body": "The report will be sent by email.",
+      "button": "Info"
+    }
+  },
+  "status": {
+    "title": "Task status",
+    "description": "StatusPill: color + icon + text, never color alone.",
+    "done": "Done",
+    "pending": "Pending",
+    "late": "Overdue"
+  },
+  "chips": {
+    "title": "Chips",
+    "items": {
+      "accent": "New",
+      "success": "Active",
+      "warning": "In review",
+      "danger": "Inactive",
+      "default": "Draft"
+    }
+  },
+  "loading": {
+    "title": "Loading",
+    "description": "Skeleton when the content's shape is known; spinner for short actions.",
+    "label": "Loading patients…"
+  },
+  "guidelines": {
+    "do1": "Use a toast to confirm actions; an alert for situations that need attention.",
+    "do2": "Keep text short and say what happened.",
+    "dont1": "Don't use a toast for errors that require user action.",
+    "dont2": "Don't show a spinner for more than a few seconds without explanation."
+  }
+}

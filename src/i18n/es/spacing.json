@@ -1,0 +1,38 @@
+{
+  "eyebrow": "Fundamentos",
+  "title": "Espaciado, radios y sombras",
+  "intro": "Base de 4 px, esquinas generosamente redondeadas y sombras suaves con tinte azul marino.",
+  "scale": {
+    "title": "Escala de espaciado",
+    "description": "Múltiplos de 4 px, las mismas unidades de Tailwind (p-4 = 16 px)."
+  },
+  "radius": {
+    "title": "Radios",
+    "description": "Los controles tienen esquinas más pequeñas que las tarjetas; campos y botones usan forma de píldora suave.",
+    "items": {
+      "control": "Control",
+      "base": "Base HeroUI",
+      "card": "Tarjeta",
+      "field": "Campo / botón",
+      "pill": "Píldora"
+    }
+  },
+  "elevation": {
+    "title": "Elevación",
+    "description": "Dos sombras: reposo y hover. En el tema oscuro son más densas para seguir siendo perceptibles.",
+    "items": {
+      "card": "Tarjeta en reposo",
+      "cardHover": "Tarjeta en hover"
+    }
+  },
+  "breakpoints": {
+    "title": "Breakpoints",
+    "description": "Mobile-first: los estilos sin prefijo aplican al celular.",
+    "items": {
+      "sm": "Celular grande / horizontal",
+      "md": "Tablet",
+      "nav": "Aparece la barra lateral fija",
+      "xl": "Escritorio amplio"
+    }
+  }
+}

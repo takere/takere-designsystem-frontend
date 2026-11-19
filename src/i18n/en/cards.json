@@ -1,0 +1,44 @@
+{
+  "eyebrow": "Components",
+  "title": "Cards",
+  "intro": "Takere's main surface: 18 px corners, a hairline border and a soft shadow on the gray canvas.",
+  "basic": {
+    "title": "Basic card",
+    "description": "16 px semibold title, with an action or status on the right.",
+    "cardTitle": "Weekly adherence",
+    "onTrack": "On track",
+    "body": "The patient completed 12 of 14 scheduled tasks. Water and medication logs are complete."
+  },
+  "careBlock": {
+    "title": "Care block",
+    "description": "Groups the items for one time slot in the plan. Each row has a type icon, name and actions.",
+    "cardTitle": "07:00 block",
+    "items": {
+      "medication": "Medication",
+      "water": "Water intake"
+    },
+    "open": "Open",
+    "edit": "Edit",
+    "delete": "Delete"
+  },
+  "stat": {
+    "title": "Stat",
+    "description": "Highlighted number with a label and an icon in a soft square.",
+    "patients": "Active patients",
+    "trend": "+12% this month",
+    "adherence": "Average adherence",
+    "alerts": "Open alerts"
+  },
+  "interactive": {
+    "title": "Clickable card",
+    "description": "Lifts 4 px and deepens its shadow on hover. Use only when the whole card is a link.",
+    "cardTitle": "Maria da Silva",
+    "body": "Ostomy care plan · 3 alerts"
+  },
+  "guidelines": {
+    "do1": "Group only related information in the same card.",
+    "do2": "Use a 1-column grid on mobile and 2–3 columns on desktop.",
+    "dont1": "Don't nest cards inside cards.",
+    "dont2": "Don't use hover elevation on cards that aren't clickable."
+  }
+}

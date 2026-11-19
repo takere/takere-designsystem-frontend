@@ -1,0 +1,101 @@
+@import "tailwindcss";
+@import "@heroui/styles";
+@import "../styles/tokens.css";
+
+/* Class-based dark mode (next-themes sets `.dark` on <html>). */
+@custom-variant dark (&:where(.dark, .dark *, [data-theme="dark"], [data-theme="dark"] *));
+
+/*
+ * Tailwind utilities generated from the tokens: `bg-takere-primary`, `text-takere-muted`,
+ * `rounded-card`, `shadow-card`… `inline` keeps them pointing at the CSS variables,
+ * so they follow the active theme.
+ */
+@theme inline {
+  --font-sans: var(--font-roboto), Roboto, Arial, sans-serif;
+  --font-mono: var(--font-roboto-mono), ui-monospace, SFMono-Regular, Menlo, monospace;
+
+  --color-takere-primary: var(--takere-primary);
+  --color-takere-primary-hover: var(--takere-primary-hover);
+  --color-takere-primary-strong: var(--takere-primary-strong);
+  --color-takere-primary-soft: var(--takere-primary-soft);
+  --color-takere-primary-soft-hover: var(--takere-primary-soft-hover);
+  --color-takere-navy: var(--takere-navy);
+  --color-takere-navy-dark: var(--takere-navy-dark);
+  --color-takere-navy-accent: var(--takere-navy-accent);
+  --color-takere-canvas: var(--takere-canvas);
+  --color-takere-surface: var(--takere-surface);
+  --color-takere-field: var(--takere-field);
+  --color-takere-text: var(--takere-text);
+  --color-takere-heading: var(--takere-heading);
+  --color-takere-gray: var(--takere-gray);
+  --color-takere-muted: var(--takere-muted);
+  --color-takere-caption: var(--takere-caption);
+  --color-takere-light: var(--takere-light);
+  --color-takere-border: var(--takere-border);
+  --color-takere-track: var(--takere-track);
+  --color-takere-success: var(--takere-success);
+  --color-takere-danger: var(--takere-danger);
+  --color-takere-warning: var(--takere-warning);
+  --color-takere-info: var(--takere-info);
+  --color-takere-cold: var(--takere-cold);
+  --color-takere-purple: var(--takere-purple);
+  --color-takere-yogurt: var(--takere-yogurt);
+  --color-takere-habit: var(--takere-habit);
+
+  --radius-card: var(--takere-radius-card);
+  --radius-control: var(--takere-radius-control);
+  --shadow-card: var(--takere-shadow-card);
+  --shadow-card-hover: var(--takere-shadow-card-hover);
+
+  --breakpoint-nav: 64rem;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 5rem;
+}
+
+html,
+body {
+  overflow-x: clip;
+}
+
+body {
+  background: var(--takere-canvas);
+  color: var(--takere-text);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+::selection {
+  background: color-mix(in srgb, var(--takere-primary) 28%, transparent);
+}
+
+/* iOS zooms into fields under 16px. */
+@media (max-width: 767px) {
+  [data-slot="input"],
+  [data-slot="textarea"],
+  [data-slot="select-trigger"] {
+    font-size: 16px;
+  }
+}
+
+/* Toasts: title and icon share the variant color (same rule as the apps). */
+.toast--danger :is(.toast__title, .toast__indicator) {
+  color: var(--takere-danger);
+}
+.toast--warning :is(.toast__title, .toast__indicator) {
+  color: var(--takere-warning);
+}
+.toast--success :is(.toast__title, .toast__indicator) {
+  color: var(--takere-success);
+}
+.toast--accent :is(.toast__title, .toast__indicator) {
+  color: var(--takere-info);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}

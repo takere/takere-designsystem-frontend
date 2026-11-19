@@ -1,0 +1,49 @@
+{
+  "eyebrow": "Foundations",
+  "title": "Icons",
+  "intro": "We use Phosphor Icons: consistent stroke, four weights and versions ready for Server Components.",
+  "library": {
+    "title": "Common icons",
+    "description": "The most used icons in the HCP and admin."
+  },
+  "weights": {
+    "title": "Weights",
+    "description": "Pick the weight based on context, and don't mix weights within the same group.",
+    "items": {
+      "regular": "Content and lists",
+      "bold": "Buttons and navigation",
+      "fill": "Care type icons",
+      "duotone": "Illustrations and stats"
+    }
+  },
+  "sizes": {
+    "title": "Sizes",
+    "items": {
+      "16": "Inline, chips",
+      "20": "Buttons",
+      "24": "Navigation",
+      "32": "Highlights"
+    }
+  },
+  "care": {
+    "title": "Care icons",
+    "description": "Each plan item type has its own color and icon, in a 40 px square with 10 px corners.",
+    "items": {
+      "medication": "Medication",
+      "water": "Water intake",
+      "weight": "Weight tracking",
+      "photo": "Wound photo",
+      "habit": "Habit",
+      "dressing": "Dressing"
+    }
+  },
+  "usage": {
+    "title": "Usage"
+  },
+  "guidelines": {
+    "do1": "Icon-only buttons always have an aria-label.",
+    "do2": "Use icon + text for destructive or uncommon actions.",
+    "dont1": "Don't mix in other icon libraries.",
+    "dont2": "Don't use icons as the only status indicator."
+  }
+}

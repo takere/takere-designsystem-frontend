@@ -1,0 +1,83 @@
+{
+  "eyebrow": "Componentes",
+  "title": "Feedback y estado",
+  "intro": "Cómo responde la interfaz al usuario: alertas en la página, toasts temporales, estado de tareas y carga.",
+  "alerts": {
+    "title": "Alertas",
+    "description": "Mensajes persistentes dentro de la página.",
+    "items": {
+      "accent": {
+        "title": "Nueva función",
+        "body": "Ahora puedes exportar el plan de cuidados en PDF."
+      },
+      "success": {
+        "title": "Plan publicado",
+        "body": "El paciente ya recibe los recordatorios en la app."
+      },
+      "warning": {
+        "title": "Dosis atrasada",
+        "body": "La medicación de las 08:00 aún no se ha registrado."
+      },
+      "danger": {
+        "title": "Error de sincronización",
+        "body": "Verifica la conexión e inténtalo de nuevo."
+      },
+      "default": {
+        "title": "Borrador",
+        "body": "Los cambios aún no se han publicado."
+      }
+    }
+  },
+  "toasts": {
+    "title": "Toasts",
+    "description": "Confirmaciones rápidas que desaparecen solas. Aparecen en la parte inferior de la pantalla.",
+    "success": {
+      "title": "Guardado",
+      "body": "Plan de cuidados actualizado.",
+      "button": "Éxito"
+    },
+    "warning": {
+      "title": "Advertencia",
+      "body": "Hay cambios sin publicar.",
+      "button": "Advertencia"
+    },
+    "danger": {
+      "title": "Error",
+      "body": "No se pudo guardar. Inténtalo de nuevo.",
+      "button": "Error"
+    },
+    "info": {
+      "title": "Información",
+      "body": "El informe se enviará por correo electrónico.",
+      "button": "Información"
+    }
+  },
+  "status": {
+    "title": "Estado de tarea",
+    "description": "StatusPill: color + ícono + texto, nunca solo color.",
+    "done": "Realizado",
+    "pending": "Pendiente",
+    "late": "Atrasado"
+  },
+  "chips": {
+    "title": "Chips",
+    "items": {
+      "accent": "Nuevo",
+      "success": "Activo",
+      "warning": "En revisión",
+      "danger": "Inactivo",
+      "default": "Borrador"
+    }
+  },
+  "loading": {
+    "title": "Carga",
+    "description": "Skeleton cuando se conoce la forma del contenido; spinner para acciones cortas.",
+    "label": "Cargando pacientes…"
+  },
+  "guidelines": {
+    "do1": "Usa toast para confirmar acciones; alerta para situaciones que requieren atención.",
+    "do2": "Mantén el texto breve y di qué pasó.",
+    "dont1": "No uses toast para errores que requieren acción del usuario.",
+    "dont2": "No muestres un spinner por más de unos segundos sin explicación."
+  }
+}

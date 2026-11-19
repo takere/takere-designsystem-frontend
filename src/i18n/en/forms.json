@@ -1,0 +1,45 @@
+{
+  "eyebrow": "Components",
+  "title": "Forms",
+  "intro": "HeroUI fields with a soft gray background and rounded corners. Labels always visible; error messages right below the field.",
+  "text": {
+    "title": "Text fields",
+    "description": "TextField groups label, input, description and error with accessibility built in.",
+    "name": "Full name",
+    "nameHint": "As it appears on the ID document.",
+    "email": "Email",
+    "emailError": "Enter a valid email.",
+    "notes": "Notes",
+    "notesPlaceholder": "E.g., allergic to dipyrone"
+  },
+  "select": {
+    "title": "Select",
+    "placeholder": "Select",
+    "label": "Frequency",
+    "options": {
+      "daily": "Daily",
+      "weekly": "Weekly",
+      "monthly": "Monthly"
+    }
+  },
+  "choice": {
+    "title": "Checkbox and switch",
+    "description": "Checkbox for choices in a list; switch to turn something on or off with immediate effect.",
+    "push": "Push reminder",
+    "whatsapp": "WhatsApp reminder",
+    "notifications": "Notifications"
+  },
+  "layout": {
+    "title": "Form layout",
+    "description": "One column on mobile, two from 640 px. Actions right-aligned on desktop.",
+    "cardTitle": "Patient details",
+    "phone": "Phone"
+  },
+  "guidelines": {
+    "do1": "Mark required fields and validate when the field loses focus.",
+    "do2": "Write error messages that explain how to fix the problem.",
+    "do3": "Use the correct type and inputMode to bring up the right keyboard on mobile.",
+    "dont1": "Don't use placeholders as labels.",
+    "dont2": "Don't disable the submit button without explaining why."
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "eyebrow": "Componentes",
+  "title": "Formularios",
+  "intro": "Campos de HeroUI con fondo gris suave y esquinas redondeadas. Etiqueta siempre visible; mensajes de error justo debajo del campo.",
+  "text": {
+    "title": "Campos de texto",
+    "description": "TextField agrupa etiqueta, campo, descripción y error con la accesibilidad ya resuelta.",
+    "name": "Nombre completo",
+    "nameHint": "Como aparece en el documento.",
+    "email": "Correo electrónico",
+    "emailError": "Ingresa un correo electrónico válido.",
+    "notes": "Observaciones",
+    "notesPlaceholder": "Ej.: alergia a la dipirona"
+  },
+  "select": {
+    "title": "Selección",
+    "placeholder": "Selecciona",
+    "label": "Frecuencia",
+    "options": {
+      "daily": "Diaria",
+      "weekly": "Semanal",
+      "monthly": "Mensual"
+    }
+  },
+  "choice": {
+    "title": "Checkbox y switch",
+    "description": "Checkbox para opciones en lista; switch para activar y desactivar algo con efecto inmediato.",
+    "push": "Recordatorio por push",
+    "whatsapp": "Recordatorio por WhatsApp",
+    "notifications": "Notificaciones"
+  },
+  "layout": {
+    "title": "Layout de formulario",
+    "description": "Una columna en el celular, dos a partir de 640 px. Acciones alineadas a la derecha en el escritorio.",
+    "cardTitle": "Datos del paciente",
+    "phone": "Teléfono"
+  },
+  "guidelines": {
+    "do1": "Marca los campos obligatorios y valida al salir del campo.",
+    "do2": "Escribe mensajes de error que indiquen cómo corregirlo.",
+    "do3": "Usa type e inputMode correctos para abrir el teclado adecuado en el celular.",
+    "dont1": "No uses el placeholder como etiqueta.",
+    "dont2": "No deshabilites el botón de enviar sin explicar el motivo."
+  }
+}

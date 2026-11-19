@@ -1,0 +1,58 @@
+{
+  "eyebrow": "Takere Design System",
+  "title": "Individualized care, consistent interface",
+  "intro": "A single reference for colors, typography, brand and components across the health-care professional panel (HCP), admin, login, patient app and the Takere website.",
+  "hero": "Tokens, HeroUI components and usage guidelines for building welcoming, clear and accessible screens — in light and dark, on any screen size.",
+  "ctaFoundations": "View foundations",
+  "ctaComponents": "View components",
+  "principles": {
+    "title": "Principles",
+    "care": {
+      "title": "Empathy",
+      "body": "Patients and professionals use Takere in sensitive moments. A human tone, calm colors and no unnecessary visual alarms."
+    },
+    "clarity": {
+      "title": "Clarity",
+      "body": "One primary action per screen, status always shown with icon and text, and an obvious typographic hierarchy."
+    },
+    "consistency": {
+      "title": "Consistency",
+      "body": "The same tokens and components across every product, so each screen feels part of the same family."
+    }
+  },
+  "explore": {
+    "title": "Explore",
+    "description": "Start with the foundations, then see how they apply to components.",
+    "items": {
+      "colors": "Brand palette, semantic tokens and HeroUI mapping.",
+      "typography": "Roboto, type scale and weights.",
+      "spacing": "Spacing scale, radius, shadows and breakpoints.",
+      "brand": "Logos, symbol and usage rules.",
+      "icons": "Phosphor Icons, weights, sizes and care icons.",
+      "buttons": "Variants, sizes, icons and states.",
+      "cards": "Surfaces, care blocks and stats.",
+      "forms": "Text fields, select, checkbox and switch.",
+      "feedback": "Alerts, toasts, status and loading.",
+      "patterns": "Page header, empty state and responsiveness."
+    }
+  },
+  "features": {
+    "title": "On this site",
+    "theme": {
+      "title": "Light and dark",
+      "body": "Light is the default theme. Dark is defined on the same tokens — switch it at the top of the page."
+    },
+    "i18n": {
+      "title": "Three languages",
+      "body": "Portuguese, English and Spanish — the same languages as the professional panel."
+    },
+    "responsive": {
+      "title": "Responsive",
+      "body": "From phone (360 px) to desktop. On phones, navigation opens in a side drawer."
+    }
+  },
+  "stack": {
+    "title": "Tech stack",
+    "description": "The same libraries used in Takere's frontends."
+  }
+}

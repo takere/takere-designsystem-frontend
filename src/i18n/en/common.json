@@ -1,0 +1,13 @@
+{
+  "copy": "Copy",
+  "copied": "Copied",
+  "copyFailed": "Couldn't copy",
+  "preview": "Preview",
+  "code": "Code",
+  "example": "Example",
+  "guidelines": "Guidelines",
+  "do": "Do",
+  "dont": "Don't",
+  "cancel": "Cancel",
+  "save": "Save"
+}

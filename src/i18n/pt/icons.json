@@ -1,0 +1,49 @@
+{
+  "eyebrow": "Fundamentos",
+  "title": "Ícones",
+  "intro": "Usamos Phosphor Icons: traço consistente, quatro pesos e versões prontas para Server Components.",
+  "library": {
+    "title": "Ícones frequentes",
+    "description": "Os ícones mais usados no HCP e no admin."
+  },
+  "weights": {
+    "title": "Pesos",
+    "description": "Escolha o peso conforme o contexto, sem misturar pesos no mesmo grupo.",
+    "items": {
+      "regular": "Conteúdo e listas",
+      "bold": "Botões e navegação",
+      "fill": "Ícones de tipo de cuidado",
+      "duotone": "Ilustrações e indicadores"
+    }
+  },
+  "sizes": {
+    "title": "Tamanhos",
+    "items": {
+      "16": "Inline, chips",
+      "20": "Botões",
+      "24": "Navegação",
+      "32": "Destaques"
+    }
+  },
+  "care": {
+    "title": "Ícones de cuidado",
+    "description": "Cada tipo de item do plano tem cor e ícone próprios, em um quadrado de 40 px com cantos de 10 px.",
+    "items": {
+      "medication": "Medicamento",
+      "water": "Controle de água",
+      "weight": "Controle de peso",
+      "photo": "Foto da ferida",
+      "habit": "Hábito",
+      "dressing": "Curativo"
+    }
+  },
+  "usage": {
+    "title": "Como usar"
+  },
+  "guidelines": {
+    "do1": "Botões só com ícone sempre têm aria-label.",
+    "do2": "Use ícone + texto em ações destrutivas ou pouco comuns.",
+    "dont1": "Não misture outras bibliotecas de ícones.",
+    "dont2": "Não use ícones como único indicador de status."
+  }
+}

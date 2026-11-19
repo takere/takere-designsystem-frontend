@@ -1,0 +1,30 @@
+{
+  "eyebrow": "Componentes",
+  "title": "Padrões de página",
+  "intro": "Composições recorrentes nas telas dos produtos.",
+  "hero": {
+    "title": "Cabeçalho de página",
+    "description": "Sobretítulo com a seção, título, voltar à esquerda e ações à direita. No celular, as ações quebram para a linha de baixo.",
+    "eyebrow": "Modelos de tratamento",
+    "example": "Plano para estomias",
+    "back": "Voltar",
+    "status": "Publicado",
+    "edit": "Editar",
+    "add": "Novo bloco"
+  },
+  "empty": {
+    "title": "Estado vazio",
+    "description": "Explica por que não há conteúdo e oferece o próximo passo.",
+    "example": "Nenhum paciente ainda",
+    "body": "Cadastre o primeiro paciente para começar a acompanhar o plano de cuidados.",
+    "action": "Novo paciente"
+  },
+  "responsive": {
+    "title": "Responsividade",
+    "description": "Regras que valem para todas as telas.",
+    "r1": "Abaixo de 1024 px, a barra lateral vira um menu lateral aberto pelo botão no topo.",
+    "r2": "Áreas de toque com no mínimo 40 × 40 px.",
+    "r3": "Tabelas largas ganham rolagem horizontal própria; a página nunca rola na horizontal.",
+    "r4": "Respeite as áreas seguras (safe-area) em iOS e Android."
+  }
+}

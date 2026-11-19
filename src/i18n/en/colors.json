@@ -1,0 +1,138 @@
+{
+  "eyebrow": "Foundations",
+  "title": "Colors",
+  "intro": "Takere green stands for care and action; navy, for trust. Always use the tokens — never raw hex values — so dark mode works automatically.",
+  "downloadCsv": "Download variables as CSV",
+  "groups": {
+    "brand": {
+      "title": "Brand",
+      "description": "Green for primary actions and highlights; navy for navigation and institutional surfaces."
+    },
+    "neutral": {
+      "title": "Neutrals",
+      "description": "Backgrounds, surfaces, text and borders. They change between light and dark."
+    },
+    "status": {
+      "title": "Status",
+      "description": "Communicate outcome or urgency. Always paired with an icon or text."
+    },
+    "care": {
+      "title": "Care types",
+      "description": "Identify categories of care plan items (habits, diet, cold)."
+    }
+  },
+  "tokens": {
+    "primary": {
+      "name": "Primary",
+      "usage": "Primary buttons, active links, focus."
+    },
+    "primaryHover": {
+      "name": "Primary · hover",
+      "usage": "Hover/pressed state of primary."
+    },
+    "primaryStrong": {
+      "name": "Primary · strong",
+      "usage": "Green text on soft backgrounds."
+    },
+    "primarySoft": {
+      "name": "Primary · soft",
+      "usage": "Active item background, badges, highlights."
+    },
+    "navy": {
+      "name": "Navy",
+      "usage": "Sidebar, institutional headers."
+    },
+    "navyDark": {
+      "name": "Navy · dark",
+      "usage": "Background behind the menu, footers."
+    },
+    "navyAccent": {
+      "name": "Navy · accent",
+      "usage": "Selected item on navy."
+    },
+    "canvas": {
+      "name": "Canvas",
+      "usage": "Page background."
+    },
+    "surface": {
+      "name": "Surface",
+      "usage": "Cards, menus, modals."
+    },
+    "field": {
+      "name": "Field",
+      "usage": "Input and select background."
+    },
+    "text": {
+      "name": "Text",
+      "usage": "Body text."
+    },
+    "heading": {
+      "name": "Heading",
+      "usage": "Headings and highlighted numbers."
+    },
+    "muted": {
+      "name": "Secondary text",
+      "usage": "Descriptions and supporting text."
+    },
+    "gray": {
+      "name": "Gray",
+      "usage": "Metadata and technical values."
+    },
+    "caption": {
+      "name": "Caption",
+      "usage": "Uppercase labels, placeholders."
+    },
+    "border": {
+      "name": "Border",
+      "usage": "Hairline borders and dividers."
+    },
+    "success": {
+      "name": "Success",
+      "usage": "Task done, saved successfully."
+    },
+    "warning": {
+      "name": "Warning",
+      "usage": "Pending, close to due."
+    },
+    "danger": {
+      "name": "Danger",
+      "usage": "Overdue, error, destructive action."
+    },
+    "info": {
+      "name": "Info",
+      "usage": "Neutral notices and tips."
+    },
+    "cold": {
+      "name": "Cold",
+      "usage": "Cold compress / temperature items."
+    },
+    "habit": {
+      "name": "Habit",
+      "usage": "Habit and routine items."
+    },
+    "yogurt": {
+      "name": "Diet",
+      "usage": "Diet and nutrition items."
+    }
+  },
+  "palette": {
+    "title": "Institutional palette",
+    "description": "Colors from the brand file (Design/Header). Use them in print, apparel and graphic pieces; in interfaces, use the tokens above."
+  },
+  "heroui": {
+    "title": "HeroUI bridge",
+    "description": "HeroUI variables point to Takere tokens, so Button, Chip, Alert and other components ship with brand colors out of the box."
+  },
+  "usage": {
+    "title": "Usage",
+    "description": "Each token becomes a Tailwind class (bg-, text-, border-…) and is also available as a CSS variable."
+  },
+  "guidelines": {
+    "do1": "Use primary for a single main action per area.",
+    "do2": "Pair status colors with an icon and text.",
+    "do3": "Use semantic tokens (takere-surface, takere-text) to support dark mode.",
+    "dont1": "Don't hardcode hex values in components.",
+    "dont2": "Don't use danger red for decoration.",
+    "dont3": "Don't put small primary-green text on white — use primary strong."
+  }
+}

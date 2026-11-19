@@ -1,0 +1,44 @@
+{
+  "eyebrow": "Componentes",
+  "title": "Tarjetas",
+  "intro": "La superficie principal de Takere: esquinas de 18 px, borde fino y sombra suave sobre el canvas gris.",
+  "basic": {
+    "title": "Tarjeta básica",
+    "description": "Título de 16 px en seminegrita, con acción o estado a la derecha.",
+    "cardTitle": "Adherencia de la semana",
+    "onTrack": "Al día",
+    "body": "El paciente realizó 12 de 14 tareas previstas. Los registros de agua y medicación están completos."
+  },
+  "careBlock": {
+    "title": "Bloque de cuidado",
+    "description": "Agrupa los ítems de un horario del plan. Cada fila tiene ícono del tipo, nombre y acciones.",
+    "cardTitle": "Bloque de las 07:00",
+    "items": {
+      "medication": "Medicamento",
+      "water": "Control de agua"
+    },
+    "open": "Abrir",
+    "edit": "Editar",
+    "delete": "Eliminar"
+  },
+  "stat": {
+    "title": "Indicador",
+    "description": "Número destacado con etiqueta e ícono en un cuadrado suave.",
+    "patients": "Pacientes activos",
+    "trend": "+12% en el mes",
+    "adherence": "Adherencia promedio",
+    "alerts": "Alertas abiertas"
+  },
+  "interactive": {
+    "title": "Tarjeta clicable",
+    "description": "Sube 4 px y aumenta la sombra en hover. Úsala solo cuando toda la tarjeta sea un enlace.",
+    "cardTitle": "Maria da Silva",
+    "body": "Plan de cuidados para ostomías · 3 alertas"
+  },
+  "guidelines": {
+    "do1": "Agrupa en la misma tarjeta solo información relacionada.",
+    "do2": "Usa una grilla de 1 columna en el celular y de 2–3 en el escritorio.",
+    "dont1": "No anides tarjetas dentro de tarjetas.",
+    "dont2": "No uses la elevación de hover en tarjetas que no son clicables."
+  }
+}

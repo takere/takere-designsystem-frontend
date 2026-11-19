@@ -1,0 +1,65 @@
+{
+  "eyebrow": "Components",
+  "title": "Buttons",
+  "intro": "HeroUI Button with Takere colors. One primary action per area; the rest use more subtle variants.",
+  "variants": {
+    "title": "Variants",
+    "description": "Six variants, from most to least emphatic.",
+    "items": {
+      "primary": {
+        "label": "Save",
+        "usage": "Main action: save, create, confirm."
+      },
+      "secondary": {
+        "label": "Export",
+        "usage": "Alternative action with moderate emphasis."
+      },
+      "tertiary": {
+        "label": "Cancel",
+        "usage": "Supporting actions and icon buttons in cards."
+      },
+      "outline": {
+        "label": "Filter",
+        "usage": "Filters and toolbar actions."
+      },
+      "ghost": {
+        "label": "See more",
+        "usage": "Subtle actions, header and menus."
+      },
+      "danger": {
+        "label": "Delete",
+        "usage": "Destructive actions, always with confirmation."
+      }
+    }
+  },
+  "sizes": {
+    "title": "Sizes",
+    "sm": "Small",
+    "md": "Medium",
+    "lg": "Large"
+  },
+  "icons": {
+    "title": "With icon",
+    "description": "Icon to the left of the label. Icon-only buttons need an aria-label.",
+    "newPatient": "New patient",
+    "edit": "Edit",
+    "delete": "Delete",
+    "add": "Add"
+  },
+  "states": {
+    "title": "States",
+    "description": "Show progress during async operations, and disable only when the action is truly unavailable.",
+    "save": "Save",
+    "saving": "Saving…",
+    "disabled": "Unavailable",
+    "fullWidth": "Full width on mobile"
+  },
+  "guidelines": {
+    "do1": "Use imperative verbs: Save, Send, Create plan.",
+    "do2": "On mobile, stack buttons and place the primary action last (closest to the thumb).",
+    "do3": "Confirm destructive actions in a dialog.",
+    "dont1": "Don't place two primary actions side by side.",
+    "dont2": "Don't use danger for reversible actions.",
+    "dont3": "Don't use generic labels like OK or Click here."
+  }
+}

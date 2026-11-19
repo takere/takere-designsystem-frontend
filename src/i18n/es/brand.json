@@ -1,0 +1,35 @@
+{
+  "eyebrow": "Fundamentos",
+  "title": "Marca",
+  "intro": "El símbolo de Takere une dos manos que forman la A y abrazan un corazón verde: cuidado individualizado para tu paciente.",
+  "story": {
+    "title": "El símbolo",
+    "body": "Las manos representan al profesional de la salud y a la red de apoyo; el corazón, al paciente en el centro del cuidado. El verde viene de la salud y la esperanza; el contorno negro garantiza la lectura sobre cualquier fondo."
+  },
+  "assetsTitle": "Archivos",
+  "assetsDescription": "Versiones oficiales exportadas de la carpeta Design. El logotipo tiene relleno blanco y contorno negro: funciona sobre el azul marino, fotos y fondos claros.",
+  "assets": {
+    "logoSlogan": "Logotipo con eslogan",
+    "logo": "Logotipo sin eslogan",
+    "symbol": "Símbolo",
+    "appIcon": "Ícono de la app"
+  },
+  "wallpapers": {
+    "title": "Fondos de pantalla",
+    "description": "Fondos oficiales para presentaciones, pantallas de espera y redes sociales (16:9).",
+    "withLogo": "Fondo con logotipo",
+    "background": "Fondo sin logotipo"
+  },
+  "clearspace": {
+    "title": "Área de protección",
+    "description": "Mantén alrededor del logotipo un espacio libre igual a la altura del corazón (x)."
+  },
+  "guidelines": {
+    "do1": "Usa el logotipo sobre el azul marino de la marca o sobre los fondos de pantalla oficiales.",
+    "do2": "Mantén la proporción original al cambiar el tamaño.",
+    "do3": "Usa el símbolo solo en espacios pequeños (favicon, avatar).",
+    "dont1": "No cambies el color del corazón.",
+    "dont2": "No apliques sombra, contorno adicional ni rotación.",
+    "dont3": "No coloques el logotipo sobre fondos con poco contraste."
+  }
+}

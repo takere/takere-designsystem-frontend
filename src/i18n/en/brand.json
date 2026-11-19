@@ -1,0 +1,35 @@
+{
+  "eyebrow": "Foundations",
+  "title": "Brand",
+  "intro": "The Takere symbol brings together two hands that form the A and embrace a green heart: individualized care for your patient.",
+  "story": {
+    "title": "The symbol",
+    "body": "The hands represent the health-care professional and the support network; the heart, the patient at the center of care. The green comes from health and hope; the black outline keeps it legible on any background."
+  },
+  "assetsTitle": "Files",
+  "assetsDescription": "Official versions exported from the Design folder. The logo has a white fill and black outline: it works on navy, photos and light backgrounds.",
+  "assets": {
+    "logoSlogan": "Logo with tagline",
+    "logo": "Logo without tagline",
+    "symbol": "Symbol",
+    "appIcon": "App icon"
+  },
+  "wallpapers": {
+    "title": "Wallpapers",
+    "description": "Official backgrounds for presentations, waiting screens and social media (16:9).",
+    "withLogo": "Wallpaper with logo",
+    "background": "Background without logo"
+  },
+  "clearspace": {
+    "title": "Clear space",
+    "description": "Keep free space around the logo equal to the height of the heart (x)."
+  },
+  "guidelines": {
+    "do1": "Use the logo on the brand navy or on the official wallpapers.",
+    "do2": "Keep the original proportions when resizing.",
+    "do3": "Use the symbol alone in small spaces (favicon, avatar).",
+    "dont1": "Don't change the heart's color.",
+    "dont2": "Don't add shadows, extra outlines or rotation.",
+    "dont3": "Don't place the logo on low-contrast backgrounds."
+  }
+}

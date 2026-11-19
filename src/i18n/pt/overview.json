@@ -1,0 +1,58 @@
+{
+  "eyebrow": "Takere Design System",
+  "title": "Cuidado individualizado, interface consistente",
+  "intro": "Referência única de cores, tipografia, marca e componentes para o painel do profissional (HCP), o admin, o login, o app do paciente e o site da Takere.",
+  "hero": "Tokens, componentes HeroUI e orientações de uso para construir telas acolhedoras, claras e acessíveis — no claro e no escuro, em qualquer tela.",
+  "ctaFoundations": "Ver fundamentos",
+  "ctaComponents": "Ver componentes",
+  "principles": {
+    "title": "Princípios",
+    "care": {
+      "title": "Acolhimento",
+      "body": "Pacientes e profissionais usam a Takere em momentos sensíveis. Tom humano, cores calmas e nada de alarmes visuais desnecessários."
+    },
+    "clarity": {
+      "title": "Clareza",
+      "body": "Uma ação principal por tela, status sempre com ícone e texto, e hierarquia tipográfica evidente."
+    },
+    "consistency": {
+      "title": "Consistência",
+      "body": "Os mesmos tokens e componentes em todos os produtos, para que cada tela pareça parte da mesma família."
+    }
+  },
+  "explore": {
+    "title": "Explore",
+    "description": "Comece pelos fundamentos e depois veja como eles se aplicam aos componentes.",
+    "items": {
+      "colors": "Paleta da marca, tokens semânticos e mapeamento para o HeroUI.",
+      "typography": "Roboto, escala tipográfica e pesos.",
+      "spacing": "Escala de espaçamento, raios, sombras e breakpoints.",
+      "brand": "Logotipos, símbolo e regras de aplicação.",
+      "icons": "Phosphor Icons, pesos, tamanhos e ícones de cuidado.",
+      "buttons": "Variantes, tamanhos, ícones e estados.",
+      "cards": "Superfícies, blocos de cuidado e indicadores.",
+      "forms": "Campos de texto, seleção, checkbox e switch.",
+      "feedback": "Alertas, toasts, status e carregamento.",
+      "patterns": "Cabeçalho de página, estado vazio e responsividade."
+    }
+  },
+  "features": {
+    "title": "Neste site",
+    "theme": {
+      "title": "Claro e escuro",
+      "body": "O tema claro é o padrão. O escuro é definido nos mesmos tokens — troque no topo da página."
+    },
+    "i18n": {
+      "title": "Três idiomas",
+      "body": "Português, inglês e espanhol, os mesmos idiomas do painel do profissional."
+    },
+    "responsive": {
+      "title": "Responsivo",
+      "body": "Do celular (360 px) ao desktop. No celular, a navegação abre em um menu lateral."
+    }
+  },
+  "stack": {
+    "title": "Tecnologias",
+    "description": "As mesmas bibliotecas dos frontends da Takere."
+  }
+}

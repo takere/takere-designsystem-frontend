@@ -1,0 +1,65 @@
+{
+  "eyebrow": "Componentes",
+  "title": "Botones",
+  "intro": "Button de HeroUI con los colores de Takere. Una acción primaria por área; las demás usan variantes más discretas.",
+  "variants": {
+    "title": "Variantes",
+    "description": "Seis variantes, de la más a la menos enfática.",
+    "items": {
+      "primary": {
+        "label": "Guardar",
+        "usage": "Acción principal: guardar, crear, confirmar."
+      },
+      "secondary": {
+        "label": "Exportar",
+        "usage": "Acción alternativa con énfasis moderado."
+      },
+      "tertiary": {
+        "label": "Cancelar",
+        "usage": "Acciones de apoyo y botones de ícono en tarjetas."
+      },
+      "outline": {
+        "label": "Filtrar",
+        "usage": "Filtros y acciones en barras de herramientas."
+      },
+      "ghost": {
+        "label": "Ver más",
+        "usage": "Acciones discretas, encabezado y menús."
+      },
+      "danger": {
+        "label": "Eliminar",
+        "usage": "Acciones destructivas, siempre con confirmación."
+      }
+    }
+  },
+  "sizes": {
+    "title": "Tamaños",
+    "sm": "Pequeño",
+    "md": "Mediano",
+    "lg": "Grande"
+  },
+  "icons": {
+    "title": "Con ícono",
+    "description": "Ícono a la izquierda del texto. Los botones solo con ícono necesitan aria-label.",
+    "newPatient": "Nuevo paciente",
+    "edit": "Editar",
+    "delete": "Eliminar",
+    "add": "Agregar"
+  },
+  "states": {
+    "title": "Estados",
+    "description": "Muestra el progreso durante operaciones asíncronas y deshabilita solo cuando la acción realmente no esté disponible.",
+    "save": "Guardar",
+    "saving": "Guardando…",
+    "disabled": "No disponible",
+    "fullWidth": "Ancho completo en el celular"
+  },
+  "guidelines": {
+    "do1": "Usa verbos en infinitivo: Guardar, Enviar, Crear plan.",
+    "do2": "En el celular, apila los botones y coloca la acción principal al final (más cerca del pulgar).",
+    "do3": "Confirma las acciones destructivas en un diálogo.",
+    "dont1": "No coloques dos acciones primarias una al lado de la otra.",
+    "dont2": "No uses danger para acciones reversibles.",
+    "dont3": "No escribas etiquetas genéricas como OK o Haz clic aquí."
+  }
+}

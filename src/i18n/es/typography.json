@@ -1,0 +1,41 @@
+{
+  "eyebrow": "Fundamentos",
+  "title": "Tipografía",
+  "intro": "Roboto en todos los productos digitales. La jerarquía viene del tamaño y el peso, no del color.",
+  "family": {
+    "title": "Familia",
+    "description": "Roboto (400, 500, 600, 700), cargada con next/font. Roboto Mono para código y valores técnicos."
+  },
+  "weights": {
+    "400": "Regular",
+    "500": "Medio",
+    "600": "Seminegrita",
+    "700": "Negrita"
+  },
+  "scale": {
+    "title": "Escala",
+    "description": "Tamaños usados en las pantallas del HCP y del admin.",
+    "items": {
+      "display": "Display",
+      "pageTitle": "Título de página",
+      "sectionTitle": "Título de sección",
+      "cardTitle": "Título de tarjeta",
+      "body": "Cuerpo",
+      "small": "Texto pequeño",
+      "eyebrow": "Antetítulo",
+      "caption": "Leyenda"
+    }
+  },
+  "sample": "Plan de cuidados para ostomías",
+  "usage": {
+    "title": "Ejemplo"
+  },
+  "guidelines": {
+    "do1": "Usa el antetítulo verde sobre el título para indicar la sección actual.",
+    "do2": "Mantén el cuerpo en 14 px y al menos 16 px en campos en el celular.",
+    "do3": "Usa letter-spacing negativo solo en títulos grandes.",
+    "dont1": "No uses más de tres tamaños diferentes en la misma tarjeta.",
+    "dont2": "No escribas párrafos enteros en mayúsculas.",
+    "dont3": "No uses peso 300 o menor — pierde legibilidad en pantallas pequeñas."
+  }
+}

@@ -1,0 +1,179 @@
+/*
+ * Takere design tokens — the single source of truth for this site.
+ *
+ * Three layers:
+ *   1. Primitives (`--takere-<hue>-<step>`): raw brand values; never change with the theme.
+ *   2. Semantic tokens (`--takere-primary`, `--takere-canvas`, …): what the UI uses; redefined in dark mode.
+ *      Same names as the `:root` block of takere-admin-frontend / takere-auth-frontend, so the apps can adopt them as-is.
+ *   3. HeroUI bridge (`--accent`, `--surface`, …): HeroUI v3 reads these.
+ *
+ * Unlayered, so they win over HeroUI's defaults (which live in @layer base).
+ * Dark mode: `.dark` / `[data-theme="dark"]` on <html>, set by next-themes.
+ * src/lib/tokens.ts mirrors these values for the documentation pages.
+ */
+
+/* ---------------------------------------------------------------- 1. Primitives */
+:root {
+  --takere-green-50: #e7f6f1;
+  --takere-green-100: #d4efe6;
+  --takere-green-200: #c6ecdf;
+  --takere-green-400: #3fc79a;
+  --takere-green-500: #0cb17b;
+  --takere-green-550: #0fab7a;
+  --takere-green-600: #11a978;
+  --takere-green-700: #0c8861;
+  --takere-green-800: #097551;
+
+  --takere-navy-500: #00307c;
+  --takere-navy-700: #011e4c;
+  --takere-navy-800: #001d4b;
+  --takere-navy-900: #001639;
+  --takere-navy-950: #0a1222;
+
+  --takere-gray-50: #f4f6f8;
+  --takere-gray-100: #eeeeee;
+  --takere-gray-150: #eef0f3;
+  --takere-gray-200: #e8ebef;
+  --takere-gray-300: #dddddd;
+  --takere-gray-400: #aaaaaa;
+  --takere-gray-500: #777777;
+  --takere-gray-600: #5b6b84;
+  --takere-gray-800: #333333;
+
+  --takere-red-500: #db594f;
+  --takere-orange-500: #fd7e14;
+  --takere-blue-500: #0d6efd;
+  --takere-sky-500: #49a9ff;
+  --takere-purple-500: #6f42c1;
+  --takere-pink-500: #d63384;
+}
+
+/* ---------------------------------------------------------------- 2 + 3. Light theme (default) */
+:root,
+.light,
+[data-theme="light"] {
+  color-scheme: light;
+
+  /* Brand */
+  --takere-primary: var(--takere-green-500);
+  --takere-primary-hover: var(--takere-green-800);
+  --takere-primary-strong: var(--takere-green-700);
+  --takere-primary-soft: var(--takere-green-50);
+  --takere-primary-soft-hover: var(--takere-green-100);
+  --takere-navy: var(--takere-navy-800);
+  --takere-navy-dark: var(--takere-navy-900);
+  --takere-navy-accent: var(--takere-navy-500);
+
+  /* Neutrals */
+  --takere-canvas: var(--takere-gray-50);
+  --takere-surface: #ffffff;
+  --takere-field: var(--takere-gray-150);
+  --takere-text: var(--takere-gray-800);
+  --takere-heading: var(--takere-navy-800);
+  --takere-gray: var(--takere-gray-500);
+  --takere-muted: var(--takere-gray-600);
+  --takere-caption: var(--takere-gray-400);
+  --takere-light: var(--takere-gray-300);
+  --takere-border: rgba(0, 29, 75, 0.08);
+  --takere-track: rgba(0, 29, 75, 0.06);
+
+  /* Status */
+  --takere-success: var(--takere-green-550);
+  --takere-danger: var(--takere-red-500);
+  --takere-warning: var(--takere-orange-500);
+  --takere-info: var(--takere-blue-500);
+
+  /* Care item types */
+  --takere-cold: var(--takere-sky-500);
+  --takere-purple: var(--takere-purple-500);
+  --takere-yogurt: var(--takere-pink-500);
+  --takere-habit: var(--takere-purple-500);
+
+  /* Shape & elevation */
+  --takere-radius-card: 18px;
+  --takere-radius-control: 12px;
+  --takere-shadow-card: 0 1px 2px rgba(0, 29, 75, 0.04), 0 8px 24px rgba(0, 29, 75, 0.06);
+  --takere-shadow-card-hover: 0 2px 4px rgba(0, 29, 75, 0.05), 0 12px 28px rgba(0, 29, 75, 0.1);
+
+  /* HeroUI bridge */
+  --background: var(--takere-canvas);
+  --foreground: var(--takere-text);
+  --surface: var(--takere-surface);
+  --surface-foreground: var(--takere-text);
+  --surface-secondary: var(--takere-gray-50);
+  --surface-tertiary: var(--takere-gray-200);
+  --overlay: var(--takere-surface);
+  --overlay-foreground: var(--takere-text);
+  --muted: var(--takere-muted);
+  --default: var(--takere-gray-200);
+  --default-foreground: var(--takere-text);
+  --accent: var(--takere-primary);
+  --accent-foreground: #ffffff;
+  --success: var(--takere-success);
+  --success-foreground: #ffffff;
+  --warning: var(--takere-warning);
+  --warning-foreground: #ffffff;
+  --danger: var(--takere-danger);
+  --danger-foreground: #ffffff;
+  --field-background: var(--takere-field);
+  --field-foreground: var(--takere-text);
+  --border: var(--takere-border);
+  --separator: var(--takere-border);
+  --focus: var(--takere-primary);
+  --link: var(--takere-primary-strong);
+  --radius: 10px;
+  --field-radius: 20px;
+  --tooltip-delay: 400ms;
+  --tooltip-close-delay: 100ms;
+}
+
+/* ---------------------------------------------------------------- Dark theme */
+.dark,
+[data-theme="dark"] {
+  color-scheme: dark;
+
+  --takere-primary: var(--takere-green-500);
+  --takere-primary-hover: var(--takere-green-400);
+  --takere-primary-strong: var(--takere-green-400);
+  --takere-primary-soft: rgba(12, 177, 123, 0.14);
+  --takere-primary-soft-hover: rgba(12, 177, 123, 0.22);
+  --takere-navy: #0f2a57;
+  --takere-navy-dark: var(--takere-navy-950);
+  --takere-navy-accent: #1d4c99;
+
+  --takere-canvas: var(--takere-navy-950);
+  --takere-surface: #111c31;
+  --takere-field: #1a2741;
+  --takere-text: #e6e9ef;
+  --takere-heading: #ffffff;
+  --takere-gray: #9aa4b5;
+  --takere-muted: #a3b0c6;
+  --takere-caption: #7c879a;
+  --takere-light: #2a3852;
+  --takere-border: rgba(255, 255, 255, 0.08);
+  --takere-track: rgba(255, 255, 255, 0.06);
+
+  --takere-success: #22c08d;
+  --takere-danger: #f0766c;
+  --takere-warning: #ff9a45;
+  --takere-info: #5b9dff;
+
+  --takere-cold: #7cc0ff;
+  --takere-purple: #a283e0;
+  --takere-yogurt: #ec6aaa;
+  --takere-habit: #a283e0;
+
+  --takere-shadow-card: 0 1px 2px rgba(0, 0, 0, 0.3), 0 8px 24px rgba(0, 0, 0, 0.25);
+  --takere-shadow-card-hover: 0 2px 4px rgba(0, 0, 0, 0.35), 0 12px 28px rgba(0, 0, 0, 0.35);
+
+  --surface-secondary: #16233b;
+  --surface-tertiary: #1d2b45;
+  --default: #1d2b45;
+  --accent-foreground: #ffffff;
+  --success-foreground: var(--takere-navy-950);
+  --warning-foreground: var(--takere-navy-950);
+  --danger-foreground: var(--takere-navy-950);
+  --backdrop: rgba(0, 0, 0, 0.6);
+  --segment: #24324d;
+  --segment-foreground: #ffffff;
+}

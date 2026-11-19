@@ -1,0 +1,38 @@
+{
+  "eyebrow": "Fundamentos",
+  "title": "Espaço, raios e sombras",
+  "intro": "Base de 4 px, cantos arredondados generosos e sombras suaves tingidas de azul-marinho.",
+  "scale": {
+    "title": "Escala de espaçamento",
+    "description": "Múltiplos de 4 px, as mesmas unidades do Tailwind (p-4 = 16 px)."
+  },
+  "radius": {
+    "title": "Raios",
+    "description": "Controles têm cantos menores que cards; campos e botões usam formato de pílula suave.",
+    "items": {
+      "control": "Controle",
+      "base": "Base HeroUI",
+      "card": "Card",
+      "field": "Campo / botão",
+      "pill": "Pílula"
+    }
+  },
+  "elevation": {
+    "title": "Elevação",
+    "description": "Duas sombras: repouso e hover. No tema escuro, ficam mais densas para continuar perceptíveis.",
+    "items": {
+      "card": "Card em repouso",
+      "cardHover": "Card em hover"
+    }
+  },
+  "breakpoints": {
+    "title": "Breakpoints",
+    "description": "Mobile-first: estilos sem prefixo valem para o celular.",
+    "items": {
+      "sm": "Celular grande / horizontal",
+      "md": "Tablet",
+      "nav": "Barra lateral fixa aparece",
+      "xl": "Desktop largo"
+    }
+  }
+}

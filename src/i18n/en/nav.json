@@ -1,0 +1,24 @@
+{
+  "label": "Main navigation",
+  "skip": "Skip to content",
+  "open": "Open menu",
+  "close": "Close menu",
+  "groups": {
+    "start": "Getting started",
+    "foundations": "Foundations",
+    "components": "Components"
+  },
+  "items": {
+    "overview": "Overview",
+    "colors": "Colors",
+    "typography": "Typography",
+    "spacing": "Spacing, radius and shadows",
+    "brand": "Brand",
+    "icons": "Icons",
+    "buttons": "Buttons",
+    "cards": "Cards",
+    "forms": "Forms",
+    "feedback": "Feedback and status",
+    "patterns": "Page patterns"
+  }
+}

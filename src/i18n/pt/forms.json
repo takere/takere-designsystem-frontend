@@ -1,0 +1,45 @@
+{
+  "eyebrow": "Componentes",
+  "title": "Formulários",
+  "intro": "Campos do HeroUI com fundo cinza suave e cantos arredondados. Rótulo sempre visível; mensagens de erro logo abaixo do campo.",
+  "text": {
+    "title": "Campos de texto",
+    "description": "TextField agrupa rótulo, campo, descrição e erro com a acessibilidade já resolvida.",
+    "name": "Nome completo",
+    "nameHint": "Como aparece no documento.",
+    "email": "E-mail",
+    "emailError": "Informe um e-mail válido.",
+    "notes": "Observações",
+    "notesPlaceholder": "Ex.: alergia a dipirona"
+  },
+  "select": {
+    "title": "Seleção",
+    "placeholder": "Selecione",
+    "label": "Frequência",
+    "options": {
+      "daily": "Diária",
+      "weekly": "Semanal",
+      "monthly": "Mensal"
+    }
+  },
+  "choice": {
+    "title": "Checkbox e switch",
+    "description": "Checkbox para escolhas em lista; switch para ligar e desligar algo com efeito imediato.",
+    "push": "Lembrete por push",
+    "whatsapp": "Lembrete por WhatsApp",
+    "notifications": "Notificações"
+  },
+  "layout": {
+    "title": "Layout de formulário",
+    "description": "Uma coluna no celular, duas a partir de 640 px. Ações alinhadas à direita no desktop.",
+    "cardTitle": "Dados do paciente",
+    "phone": "Telefone"
+  },
+  "guidelines": {
+    "do1": "Marque campos obrigatórios e valide ao sair do campo.",
+    "do2": "Escreva mensagens de erro que digam como corrigir.",
+    "do3": "Use type e inputMode corretos para abrir o teclado certo no celular.",
+    "dont1": "Não use placeholder como rótulo.",
+    "dont2": "Não desabilite o botão de enviar sem explicar o motivo."
+  }
+}

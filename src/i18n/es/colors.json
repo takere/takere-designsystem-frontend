@@ -1,0 +1,138 @@
+{
+  "eyebrow": "Fundamentos",
+  "title": "Colores",
+  "intro": "El verde Takere representa cuidado y acción; el azul marino, confianza. Usa siempre los tokens — nunca el hexadecimal directo — para que el tema oscuro funcione automáticamente.",
+  "downloadCsv": "Descargar CSV de variables",
+  "groups": {
+    "brand": {
+      "title": "Marca",
+      "description": "Verde para acciones principales y destacados; azul marino para navegación y superficies institucionales."
+    },
+    "neutral": {
+      "title": "Neutros",
+      "description": "Fondos, superficies, texto y bordes. Cambian entre claro y oscuro."
+    },
+    "status": {
+      "title": "Estado",
+      "description": "Comunican resultado o urgencia. Siempre acompañados de ícono o texto."
+    },
+    "care": {
+      "title": "Tipos de cuidado",
+      "description": "Identifican categorías de ítems del plan de cuidados (hábitos, alimentación, frío)."
+    }
+  },
+  "tokens": {
+    "primary": {
+      "name": "Primario",
+      "usage": "Botones principales, enlaces activos, foco."
+    },
+    "primaryHover": {
+      "name": "Primario · hover",
+      "usage": "Estado hover/presionado del primario."
+    },
+    "primaryStrong": {
+      "name": "Primario · intenso",
+      "usage": "Texto verde sobre fondos suaves."
+    },
+    "primarySoft": {
+      "name": "Primario · suave",
+      "usage": "Fondo de ítem activo, badges, destacados."
+    },
+    "navy": {
+      "name": "Azul marino",
+      "usage": "Barra lateral, encabezados institucionales."
+    },
+    "navyDark": {
+      "name": "Azul marino · oscuro",
+      "usage": "Fondo detrás del menú, pies de página."
+    },
+    "navyAccent": {
+      "name": "Azul marino · acento",
+      "usage": "Ítem seleccionado sobre el azul marino."
+    },
+    "canvas": {
+      "name": "Canvas",
+      "usage": "Fondo de la página."
+    },
+    "surface": {
+      "name": "Superficie",
+      "usage": "Tarjetas, menús, modales."
+    },
+    "field": {
+      "name": "Campo",
+      "usage": "Fondo de inputs y selects."
+    },
+    "text": {
+      "name": "Texto",
+      "usage": "Texto principal."
+    },
+    "heading": {
+      "name": "Título",
+      "usage": "Títulos y números destacados."
+    },
+    "muted": {
+      "name": "Texto secundario",
+      "usage": "Descripciones y textos de apoyo."
+    },
+    "gray": {
+      "name": "Gris",
+      "usage": "Metadatos y valores técnicos."
+    },
+    "caption": {
+      "name": "Leyenda",
+      "usage": "Etiquetas en mayúsculas, placeholders."
+    },
+    "border": {
+      "name": "Borde",
+      "usage": "Bordes finos y separadores."
+    },
+    "success": {
+      "name": "Éxito",
+      "usage": "Tarea realizada, guardado con éxito."
+    },
+    "warning": {
+      "name": "Advertencia",
+      "usage": "Pendiente, cerca del plazo."
+    },
+    "danger": {
+      "name": "Peligro",
+      "usage": "Atrasado, error, acción destructiva."
+    },
+    "info": {
+      "name": "Información",
+      "usage": "Avisos neutros y consejos."
+    },
+    "cold": {
+      "name": "Frío",
+      "usage": "Ítems de compresa fría / temperatura."
+    },
+    "habit": {
+      "name": "Hábito",
+      "usage": "Ítems de hábitos y rutina."
+    },
+    "yogurt": {
+      "name": "Alimentación",
+      "usage": "Ítems de dieta y alimentación."
+    }
+  },
+  "palette": {
+    "title": "Paleta institucional",
+    "description": "Colores del archivo de marca (Design/Header). Úsalos en materiales impresos, camisetas y piezas gráficas; en las interfaces, usa los tokens de arriba."
+  },
+  "heroui": {
+    "title": "Puente con HeroUI",
+    "description": "Las variables de HeroUI apuntan a los tokens de Takere. Así, Button, Chip, Alert y demás componentes ya nacen con los colores de la marca."
+  },
+  "usage": {
+    "title": "Cómo usar",
+    "description": "Cada token se convierte en una clase de Tailwind (bg-, text-, border-…) y también está disponible como variable CSS."
+  },
+  "guidelines": {
+    "do1": "Usa el primario para una sola acción principal por área.",
+    "do2": "Combina los colores de estado con ícono y texto.",
+    "do3": "Usa tokens semánticos (takere-surface, takere-text) para respetar el tema oscuro.",
+    "dont1": "No escribas hexadecimales directamente en el componente.",
+    "dont2": "No uses el rojo de peligro como decoración.",
+    "dont3": "No pongas texto pequeño en verde primario sobre blanco — usa el primario intenso."
+  }
+}

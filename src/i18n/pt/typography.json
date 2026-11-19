@@ -1,0 +1,41 @@
+{
+  "eyebrow": "Fundamentos",
+  "title": "Tipografia",
+  "intro": "Roboto em todos os produtos digitais. A hierarquia vem de tamanho e peso, não de cor.",
+  "family": {
+    "title": "Família",
+    "description": "Roboto (400, 500, 600, 700), carregada com next/font. Roboto Mono para código e valores técnicos."
+  },
+  "weights": {
+    "400": "Regular",
+    "500": "Médio",
+    "600": "Seminegrito",
+    "700": "Negrito"
+  },
+  "scale": {
+    "title": "Escala",
+    "description": "Tamanhos usados nas telas do HCP e do admin.",
+    "items": {
+      "display": "Display",
+      "pageTitle": "Título da página",
+      "sectionTitle": "Título de seção",
+      "cardTitle": "Título de card",
+      "body": "Corpo",
+      "small": "Texto pequeno",
+      "eyebrow": "Sobretítulo",
+      "caption": "Legenda"
+    }
+  },
+  "sample": "Plano de cuidados para estomias",
+  "usage": {
+    "title": "Exemplo"
+  },
+  "guidelines": {
+    "do1": "Use o sobretítulo verde para indicar a seção atual acima do título.",
+    "do2": "Mantenha o corpo em 14 px e no mínimo 16 px em campos no celular.",
+    "do3": "Use letter-spacing negativo apenas em títulos grandes.",
+    "dont1": "Não use mais de três tamanhos diferentes no mesmo card.",
+    "dont2": "Não escreva parágrafos inteiros em caixa alta.",
+    "dont3": "Não use peso 300 ou menor — perde legibilidade em telas pequenas."
+  }
+}

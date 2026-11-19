@@ -1,0 +1,30 @@
+{
+  "eyebrow": "Components",
+  "title": "Page patterns",
+  "intro": "Recurring compositions across product screens.",
+  "hero": {
+    "title": "Page header",
+    "description": "Eyebrow with the section, title, back on the left and actions on the right. On mobile, actions wrap to the next line.",
+    "eyebrow": "Treatment templates",
+    "example": "Ostomy plan",
+    "back": "Back",
+    "status": "Published",
+    "edit": "Edit",
+    "add": "New block"
+  },
+  "empty": {
+    "title": "Empty state",
+    "description": "Explains why there's no content and offers the next step.",
+    "example": "No patients yet",
+    "body": "Add your first patient to start tracking their care plan.",
+    "action": "New patient"
+  },
+  "responsive": {
+    "title": "Responsiveness",
+    "description": "Rules that apply to every screen.",
+    "r1": "Below 1024 px, the sidebar becomes a drawer opened from the button at the top.",
+    "r2": "Touch targets of at least 40 × 40 px.",
+    "r3": "Wide tables get their own horizontal scroll; the page never scrolls horizontally.",
+    "r4": "Respect safe areas (safe-area) on iOS and Android."
+  }
+}

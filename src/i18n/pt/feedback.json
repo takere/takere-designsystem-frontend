@@ -1,0 +1,83 @@
+{
+  "eyebrow": "Componentes",
+  "title": "Feedback e status",
+  "intro": "Como a interface responde ao usuário: alertas na página, toasts temporários, status de tarefas e carregamento.",
+  "alerts": {
+    "title": "Alertas",
+    "description": "Mensagens persistentes dentro da página.",
+    "items": {
+      "accent": {
+        "title": "Novo recurso",
+        "body": "Agora você pode exportar o plano de cuidados em PDF."
+      },
+      "success": {
+        "title": "Plano publicado",
+        "body": "O paciente já recebe os lembretes no app."
+      },
+      "warning": {
+        "title": "Dose atrasada",
+        "body": "A medicação das 08:00 ainda não foi registrada."
+      },
+      "danger": {
+        "title": "Falha na sincronização",
+        "body": "Verifique a conexão e tente novamente."
+      },
+      "default": {
+        "title": "Rascunho",
+        "body": "As alterações ainda não foram publicadas."
+      }
+    }
+  },
+  "toasts": {
+    "title": "Toasts",
+    "description": "Confirmações rápidas que somem sozinhas. Aparecem na parte inferior da tela.",
+    "success": {
+      "title": "Salvo",
+      "body": "Plano de cuidados atualizado.",
+      "button": "Sucesso"
+    },
+    "warning": {
+      "title": "Atenção",
+      "body": "Há alterações não publicadas.",
+      "button": "Atenção"
+    },
+    "danger": {
+      "title": "Erro",
+      "body": "Não foi possível salvar. Tente novamente.",
+      "button": "Erro"
+    },
+    "info": {
+      "title": "Informação",
+      "body": "O relatório será enviado por e-mail.",
+      "button": "Informação"
+    }
+  },
+  "status": {
+    "title": "Status de tarefa",
+    "description": "StatusPill: cor + ícone + texto, nunca só cor.",
+    "done": "Realizado",
+    "pending": "Pendente",
+    "late": "Atrasado"
+  },
+  "chips": {
+    "title": "Chips",
+    "items": {
+      "accent": "Novo",
+      "success": "Ativo",
+      "warning": "Em revisão",
+      "danger": "Inativo",
+      "default": "Rascunho"
+    }
+  },
+  "loading": {
+    "title": "Carregamento",
+    "description": "Skeleton quando o formato do conteúdo é conhecido; spinner para ações curtas.",
+    "label": "Carregando pacientes…"
+  },
+  "guidelines": {
+    "do1": "Use toast para confirmar ações; alerta para situações que exigem atenção.",
+    "do2": "Mantenha o texto curto e diga o que aconteceu.",
+    "dont1": "Não use toast para erros que exigem ação do usuário.",
+    "dont2": "Não mostre spinner por mais de alguns segundos sem explicação."
+  }
+}

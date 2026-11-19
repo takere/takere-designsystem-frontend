@@ -1,0 +1,24 @@
+{
+  "label": "Navegación principal",
+  "skip": "Saltar al contenido",
+  "open": "Abrir menú",
+  "close": "Cerrar menú",
+  "groups": {
+    "start": "Inicio",
+    "foundations": "Fundamentos",
+    "components": "Componentes"
+  },
+  "items": {
+    "overview": "Visión general",
+    "colors": "Colores",
+    "typography": "Tipografía",
+    "spacing": "Espaciado, radios y sombras",
+    "brand": "Marca",
+    "icons": "Íconos",
+    "buttons": "Botones",
+    "cards": "Tarjetas",
+    "forms": "Formularios",
+    "feedback": "Feedback y estado",
+    "patterns": "Patrones de página"
+  }
+}

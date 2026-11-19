@@ -1,0 +1,138 @@
+{
+  "eyebrow": "Fundamentos",
+  "title": "Cores",
+  "intro": "O verde Takere representa cuidado e ação; o azul-marinho, confiança. Use sempre os tokens — nunca o hexadecimal direto — para que o tema escuro funcione automaticamente.",
+  "downloadCsv": "Baixar CSV das variáveis",
+  "groups": {
+    "brand": {
+      "title": "Marca",
+      "description": "Verde para ações principais e destaques; azul-marinho para navegação e superfícies institucionais."
+    },
+    "neutral": {
+      "title": "Neutros",
+      "description": "Fundos, superfícies, texto e bordas. Mudam entre claro e escuro."
+    },
+    "status": {
+      "title": "Status",
+      "description": "Comunicam resultado ou urgência. Sempre acompanhados de ícone ou texto."
+    },
+    "care": {
+      "title": "Tipos de cuidado",
+      "description": "Identificam categorias de itens do plano de cuidados (hábitos, alimentação, frio)."
+    }
+  },
+  "tokens": {
+    "primary": {
+      "name": "Primária",
+      "usage": "Botões principais, links ativos, foco."
+    },
+    "primaryHover": {
+      "name": "Primária · hover",
+      "usage": "Estado hover/pressionado da primária."
+    },
+    "primaryStrong": {
+      "name": "Primária · forte",
+      "usage": "Texto verde sobre fundos suaves."
+    },
+    "primarySoft": {
+      "name": "Primária · suave",
+      "usage": "Fundo de item ativo, badges, destaques."
+    },
+    "navy": {
+      "name": "Azul-marinho",
+      "usage": "Barra lateral, cabeçalhos institucionais."
+    },
+    "navyDark": {
+      "name": "Azul-marinho · escuro",
+      "usage": "Fundo atrás do menu, rodapés."
+    },
+    "navyAccent": {
+      "name": "Azul-marinho · destaque",
+      "usage": "Item selecionado sobre o marinho."
+    },
+    "canvas": {
+      "name": "Canvas",
+      "usage": "Fundo da página."
+    },
+    "surface": {
+      "name": "Superfície",
+      "usage": "Cards, menus, modais."
+    },
+    "field": {
+      "name": "Campo",
+      "usage": "Fundo de inputs e selects."
+    },
+    "text": {
+      "name": "Texto",
+      "usage": "Texto principal."
+    },
+    "heading": {
+      "name": "Título",
+      "usage": "Títulos e números de destaque."
+    },
+    "muted": {
+      "name": "Texto secundário",
+      "usage": "Descrições e textos de apoio."
+    },
+    "gray": {
+      "name": "Cinza",
+      "usage": "Metadados e valores técnicos."
+    },
+    "caption": {
+      "name": "Legenda",
+      "usage": "Rótulos em caixa alta, placeholders."
+    },
+    "border": {
+      "name": "Borda",
+      "usage": "Bordas finas e separadores."
+    },
+    "success": {
+      "name": "Sucesso",
+      "usage": "Tarefa realizada, salvo com sucesso."
+    },
+    "warning": {
+      "name": "Atenção",
+      "usage": "Pendente, perto do prazo."
+    },
+    "danger": {
+      "name": "Perigo",
+      "usage": "Atrasado, erro, ação destrutiva."
+    },
+    "info": {
+      "name": "Informação",
+      "usage": "Avisos neutros e dicas."
+    },
+    "cold": {
+      "name": "Frio",
+      "usage": "Itens de compressa fria / temperatura."
+    },
+    "habit": {
+      "name": "Hábito",
+      "usage": "Itens de hábitos e rotina."
+    },
+    "yogurt": {
+      "name": "Alimentação",
+      "usage": "Itens de dieta e alimentação."
+    }
+  },
+  "palette": {
+    "title": "Paleta institucional",
+    "description": "Cores do arquivo de marca (Design/Header). Use em materiais impressos, camisetas e peças gráficas; nas interfaces, use os tokens acima."
+  },
+  "heroui": {
+    "title": "Ponte com o HeroUI",
+    "description": "As variáveis do HeroUI apontam para os tokens da Takere. Assim, Button, Chip, Alert e demais componentes já nascem com as cores da marca."
+  },
+  "usage": {
+    "title": "Como usar",
+    "description": "Cada token vira uma classe do Tailwind (bg-, text-, border-…) e também está disponível como variável CSS."
+  },
+  "guidelines": {
+    "do1": "Use a primária para uma única ação principal por área.",
+    "do2": "Combine cores de status com ícone e texto.",
+    "do3": "Use tokens semânticos (takere-surface, takere-text) para respeitar o tema escuro.",
+    "dont1": "Não escreva hexadecimais direto no componente.",
+    "dont2": "Não use o vermelho de perigo para decoração.",
+    "dont3": "Não coloque texto verde-primário pequeno sobre branco — use primária forte."
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "eyebrow": "Foundations",
+  "title": "Typography",
+  "intro": "Roboto across all digital products. Hierarchy comes from size and weight, not color.",
+  "family": {
+    "title": "Typeface",
+    "description": "Roboto (400, 500, 600, 700), loaded with next/font. Roboto Mono for code and technical values."
+  },
+  "weights": {
+    "400": "Regular",
+    "500": "Medium",
+    "600": "Semibold",
+    "700": "Bold"
+  },
+  "scale": {
+    "title": "Scale",
+    "description": "Sizes used in the HCP and admin screens.",
+    "items": {
+      "display": "Display",
+      "pageTitle": "Page title",
+      "sectionTitle": "Section title",
+      "cardTitle": "Card title",
+      "body": "Body",
+      "small": "Small text",
+      "eyebrow": "Eyebrow",
+      "caption": "Caption"
+    }
+  },
+  "sample": "Ostomy care plan",
+  "usage": {
+    "title": "Example"
+  },
+  "guidelines": {
+    "do1": "Use the green eyebrow above the title to indicate the current section.",
+    "do2": "Keep body text at 14 px, and at least 16 px in form fields on mobile.",
+    "do3": "Use negative letter-spacing only on large headings.",
+    "dont1": "Don't use more than three different sizes in the same card.",
+    "dont2": "Don't write whole paragraphs in uppercase.",
+    "dont3": "Don't use weight 300 or lighter — it loses legibility on small screens."
+  }
+}
